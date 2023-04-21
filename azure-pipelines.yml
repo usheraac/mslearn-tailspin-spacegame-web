@@ -14,10 +14,10 @@ variables:
 
 steps:
 - task: UseDotNet@2
-  displayName: 'Use .NET SDK 6.X'
+  displayName: 'Use .NET SDK 6.x'
   inputs:
-    packageType: SDK
-    version: '6.X'
+    packageType: sdk
+    version: '6.x'
 
 - task: Npm@1
   displayName: 'Run npm install'
